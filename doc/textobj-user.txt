@@ -218,6 +218,8 @@ textobj#user#plugin({plugin}, {obj-specs})
 		(4) :TextobjFooDefaultKeyMappings will be executed unless
 		{specs} contains the key "*no-default-key-mappings" or the
 		variable g:textobj_foo_no_default_key_mappings is defined.
+		The value of the key "*no-default-key-mappings" should be
+		|dictionary|.
 
 	{plugin} is the name of a plugin.  It must be a string which consits
 	of only lowercase alphabets.
